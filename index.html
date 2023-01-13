@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="./images/logo/logo.jpeg">
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <!-- import script of "fontawesome.com" -->
+    <script src="https://kit.fontawesome.com/08e510131e.js" crossorigin="anonymous"></script>
+    <!-- <i class="fa-solid fa-bars"></i> -->
+
+    <!-- <title>Elnkety</title> -->
+    <title>Elnkety - Show</title>
+    <!-- <title>ميكروباص - التاريخ</title> -->
+</head>
+<body>
+    <!-- Start of thre head -->
+    <div class="head">
+        <div class="logo-wrapper">
+           <a href="#"><img src="./images/logo/logo.jpeg" alt="logo"></a>
+        </div>
+
+        <p id="page-title">ميكروباص التاريخ</p>
+        <a href="#" id="hamburger-menu" onclick="sideMenu()"><i class="fa-solid fa-bars"></i></a>
+        
+
+        <div class="nav-menu">
+            <ul>
+                <li><a href="#who-we-are">نبذه عن البرنامج</a></li>
+                <li><a href="#about-me">نبذه عن مقدم البرنامج</a></li>
+                <li><a href="#videos">فيديوهات</a></li>
+                <li><a href="#contact-me">تواصل معي</a></li>
+            </ul>
+        </div>
+        <!-- End of head -->
+    </div>
+
+    <div class="mobile-menu">
+        <div>
+            <p>القائمة</p>
+            <div id="close" onclick="closeMenu()"><a href="#" id="close-button" onclick="closeMenu()">x</a></div>
+            
+        </div>
+
+        <ul>
+            <li><a href="#who-we-are" onclick="closeMenu()">نبذه عن البرنامج</a></li>
+            <li><a href="#about-me" onclick="closeMenu()">نبذه عن مقدم البرنامج</a></li>
+            <li><a href="#videos" onclick="closeMenu()">فيديوهات</a></li>
+            <li><a href="#contact-me" onclick="closeMenu()">تواصل معي</a></li>
+        </ul>
+    </div>
+
+
+    <div class="header">
+        <div class="img-wrapper">
+            <img src="./images/books-black.jpg" alt="..."/>
+        </div>
+    </div>
+    
+    <div class="banner">
+        <h1>Abdallah Elnkety</h1>
+        <p>       
+            هنحكي معاكم شوية عن التاريخ
+        </p>
+
+    </div>
+
+    <section id="who-we-are">
+        <div class="intro">
+            <p>نبذة عن البرنامج</p>
+            <p>
+                في برنامجنا هنعيش و نفتكر مع بعض التاريخ بكل تفاصيله
+                 بطريقة مبسطة
+            </p>
+        </div>
+    </section>
+
+    <section id="about-me">
+        <div class="profile-wrapper">
+            <img src="./images/personal-photo.jpeg" alt="My-photo">
+        </div>
+        <div class="paragraph-about-me">
+            <p>
+                أنا عبد الله النقيطي، هكلمكم عن شوية حاجات من التاريخ في البرنامج و فيها حقايق و غرايب ممكن تكون مفاجأه بالنسبة ليكم 
+            </p>
+        </div>
+    </section>
+
+    <section id="videos">
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/QDocB220u6g" title="حى من اقدم و اعرق احياء القاهرة و تاريخه كبيير جدا ولكن  نهايه غير متوقعه بالمره" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/_3w9c_H0esY" title="اساطير بيت الكريتليه و البير المسحور" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/5ompCWLfg-w" title="الحقيقه وراء مصايف الزمن الجميل و اسمائها و اماكنها ♥️❤️" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <p id="rest">شوف كل الفيديوهات على</p>
+        <div class="youtube-link">
+            <a href="https://youtube.com/@abdallah-elnekety-6639/" target="_blank"><i class="fa-brands fa-youtube"><p>YouTube</p></i></a>
+        </div>
+    </section>
+
+    <!-- Like contact card -->
+    <section id="contact-me">
+        <div class="contact-me-title">
+            <p>تواصل معي عبر</p>
+        </div>
+
+        <div class="contact-me-container">
+            <div class="image-circle-wrapper">
+                <img src="./images/personal-photo.jpeg" alt="My-photo">
+
+                <div class="contact-pages">
+                <!-- 1 -->
+                <div class="facebook">
+                    <a href="https://www.facebook.com/ELNKETY/" target="_blank"><i class="fa-brands fa-facebook"></i>Facebook</a>
+                </div>
+                <!-- 2 -->
+                <div class="facebook whatsapp">
+                    <a href="https://api.whatsapp.com/send?phone=+201026212050" target="_blank"><i class="fa-brands fa-whatsapp"></i>WhatsApp</a>
+                </div>
+                 <!-- 3 -->
+                 <div class="phone facebook">
+                    <a href="#contact-me"><i class="fa-solid fa-phone"></i><p>+201026212050</p></a>
+                </div>
+                <!-- End. -->
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- End of sections -->
+    
+    <div class="footer">
+        <p id="company-name">All rights reserved for &copy; <span>2022 GhostWeb</span></p>
+        <p id="ahmed">This is made by &copy;Ahmed Osama</p>
+
+    </div>
+
+    <!-- Link JavaScript file -->
+    <script src="./js/main.js"></script>
+
+</body>
+</html>
