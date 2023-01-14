@@ -713,7 +713,7 @@ section {
         display: none;
     }
 } */
-@media  ((min-width: 120px) and (max-width: 1080px)) {
+@media (min-width: 576px) and (max-width: 991.98px) {
     #hamburger-menu {
         display: block;    
     }
