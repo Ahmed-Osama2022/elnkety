@@ -362,7 +362,7 @@ a {
     font-size: calc(2.3rem / 2 ); 
     color: #ead6c8;
     width: 50%;
-    letter-spacing: 0.1rem;
+    /* letter-spacing: 0.1rem; */
     margin-top: 1.5rem;    
     text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.4);
     text-align: center;
@@ -419,7 +419,7 @@ section {
     width: 90%;
     user-select: none;
     text-align: center;
-    letter-spacing: 1px;
+    /* letter-spacing: 1px; */
     margin: 2rem 0;
 }
 #who-we-are {
@@ -475,7 +475,7 @@ section {
     width: 90%;
     user-select: none;
     text-align: center;
-    letter-spacing: 1px;
+    /* letter-spacing: 1px; */
     margin:  0 auto;
 }
 
@@ -514,7 +514,7 @@ section {
     width: 90%;
     user-select: none;
     text-align: center;
-    letter-spacing: 1px;
+    /* letter-spacing: 1px; */
     margin: 1rem auto;
 }
 .youtube-link {
